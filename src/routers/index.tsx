@@ -114,9 +114,6 @@ export const pages: Page[] = [
 const Routes = () => {
   return (
     <BrowserRouter
-      basename={
-        import.meta.env.VITE_LRT_OR_RTL === "rtl" ? "/ncmaz-rtl" : "/ncmaz"
-      }
     >
       <MediaRunningContainer />
 
